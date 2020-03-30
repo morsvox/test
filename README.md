@@ -1,3 +1,15 @@
+
+После миграции выполнять:
+
+~~~
+php yii campaign/create {name} {url}
+~~~
+
+Поле "тип (кликандер, вап и т.д.)" не смог найти в интерфейсе
+Тесты не писал
+константы с логином и паролем следует перекинуть в .env конфиги
+
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
