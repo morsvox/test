@@ -23,7 +23,7 @@ class CampaignController extends Controller
     private $data;
     private $cookies;
 
-    public function actionCreate(String $name = 'hello world', String $url = 'https://yandex.ru')
+    public function actionCreate(String $name, String $url)
     {
         $this->client = new Client();
         $this->data = new DataForCampaign($name, $url);
